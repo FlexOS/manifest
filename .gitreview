@@ -1,0 +1,5 @@
+[gerrit]
+host=gerrit.flex-os.com
+port=29418
+project=FlexOS/manifest.git
+defaultbranch=lp5.1
