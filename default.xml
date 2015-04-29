@@ -12,6 +12,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="flex-devices"
+           fetch="git://github.com/flex-devices" />
+
   <remote  name="flexos"
            review="http://gerrit.flex-os.com"
            fetch="git://github.com/FlexOS" 
