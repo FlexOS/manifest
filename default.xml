@@ -595,4 +595,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/flex" name="vendor_flex" remote="flexos" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" />
 </manifest>
