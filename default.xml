@@ -16,7 +16,6 @@
            fetch="git://github.com/flex-devices" />
 
   <remote  name="flexos"
-           review="http://gerrit.flex-os.com"
            fetch="git://github.com/FlexOS" 
            revision="lp5.1" />
 
@@ -41,7 +40,7 @@
 
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="art" name="android_art" groups="pdk" />
-  <project path="bionic" name="android_bionic" groups="pdk" />
+  <project path="bionic" name="bionic" remote="flexos" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
