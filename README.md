@@ -16,7 +16,7 @@ Then to sync up:
     repo sync
 
 
-Official Builds
---------
+To build FlexOS
 
-Nightlies and weeklies will start soon
+      $ cd ~/flex
+      $ . build/envsetup.sh && brunch <device>
