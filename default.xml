@@ -16,7 +16,7 @@
            fetch="git://github.com/flex-devices" />
 
   <remote  name="flexos"
-           review="http://104.236.248.224:8888/"
+           review="http://104.236.248.224:29415/"
            fetch="git://github.com/FlexOS" 
            revision="lp5.1" />
 
