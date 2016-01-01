@@ -1,0 +1,15 @@
+FlexOS
+Getting Started
+
+To get started with FlexOS, you'll need to get familiar with Git and Repo.
+
+To initialize your local repository using the FlexOS trees, use a command like this:
+
+repo init -u git://github.com/FlexOS/manifest.git -b mm6.0-staging
+Then to sync up:
+
+repo sync
+To build FlexOS
+
+  $ cd ~/flex
+  $ . build/envsetup.sh && brunch <device>
